@@ -6,7 +6,15 @@ using System.Threading.Tasks;
 
 namespace AutoSale.Model
 {
-    internal class Car
+    public class Car
     {
+        public int Id { get; set; }
+        public string Brand { get; set; }
+
+        public string Type { get; set; }
+
+        public string License { get; set; }
+
+        public int Date { get; set; }
     }
 }

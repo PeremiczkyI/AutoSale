@@ -16,7 +16,7 @@ namespace AutoSale
         private string Password;
         private string ConnectionString;
 
-        public Connect(MySqlConnection connection, string host, string database, string user, string password, string connectionString)
+        public Connect()
         {
             Host = "127.0.0.1";
             Database = "auto";
